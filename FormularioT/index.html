@@ -1,0 +1,77 @@
+<html>
+    <body">
+        <header>
+            <center>
+            <h1>Cuestionario de Cine</h1>
+            </center>
+        </header>
+    <form style="background-color: aquamarine;"> 
+        <table>
+            
+        <fieldset>
+            <legend>Datos personales</legend>
+            <p>Nombre:
+             <br>
+            <input type="text" name="nombre" size="30" placeholder="Escribe tu nombre"></p>
+            <p>Apellidos:
+             <br>
+            <input type="text" name="apellidos" size="30" placeholder="Escriba sus dos apellidos"></p>
+            <p>DNI:
+             <br>
+            <input type="text" name="DNI" size="30" placeholder="DNI"></p>
+            <p>Edad:
+             <br>
+            <input type="text" name="edad" size="4" placeholder="Edad" ></p>
+            <p>Sexo:
+             <br>
+             <select id="sexo">
+                <option value="">...</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>              
+             </select>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mejor Pelicula</legend>
+            <p>
+                <input  type="radio" name="Pelicula" value="1">El padrino
+                <br>
+                <input  type="radio" name="Pelicula" value="1">Crepúsculo
+                <br>
+                <input  type="radio" name="Pelicula" value="1">Los odiosos 8
+                <br>
+                <input  type="radio" name="Pelicula" value="1">Anatomia de un asesinato 
+                <br>                
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Tu Opinión</legend>
+            <textarea name="comentarios"  rows="10" cols="80" >
+            </textarea>
+            <button name="boton" type="button">
+                <img src="https://tercetocomunicacion.es/wp-content/uploads/2017/05/minions.gif" width="300" height="150" border="1" >
+            </button>
+        </fieldset>
+
+        <tr>
+
+            <td><div align="center">
+            
+            <input type="submit" value="Enviar formulario" style="width: 200px; height: 45px">
+            
+            </div></td>
+            
+            <td><div align="center">
+            
+            <input type="Reset" value="Borrar formulario" style="width: 200px; height: 45px">
+            
+            </div></td>
+            
+            </tr>
+        </table>
+    </form>
+
+    </body>
+</html>
