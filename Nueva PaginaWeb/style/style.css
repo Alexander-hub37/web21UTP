@@ -169,7 +169,7 @@ section .title::after{
 
 .inicio{
     display: flex;
-    background-image: url("images/Gr.jpg");
+    background-image: url("../images/Gr.jpg");
     background-size: cover;
     height: 100vh;
     color: rgb(255, 255, 255);
